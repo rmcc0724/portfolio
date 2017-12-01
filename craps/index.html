@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Craps Demo</title>
+    <!-- JQuery and Font CDN's -->
+    <link href='//fonts.googleapis.com/css?family=Changa+One' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Aclonica' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type='text/css' href="css/craps_style.css">
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+    <script src="//jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+    <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="js/craps.js"></script>
+</head>
+
+<body id="body">
+    <header>
+        <h1>Welcome to<br>My Craps Demo</h1>
+        <div><img src="images/h2.jpg" width="254" height="89" alt="Craps" style="border: medium dotted;"></div>
+        <button id="opener">Click for instructions</button>
+        <div id="dialog" title="Instructions">
+            <p>This is the game Craps. Start by rolling the dice once. If you hit 7 or 11, you win!!. If you roll 2, 3 or 12, you lose. If you roll 4,5,6,8,9 or 10, that becomes your point. You keep rolling until you win and hit your point, or crap out by
+                rolling 7. You start with $100 to bet with and if you lose it all press reset and you'll get another $100</p>
+        </div>
+    </header>
+
+    <form name="myForm" id="myForm" style="padding-top: 6px;">
+        <table>
+            <tr>
+                <td style="padding-top: 66px;"><input type="button" id="roll" name="roll" value="Roll Dice"></td>
+                <td><textarea id="textarea1" cols="8" rows="4"></textarea></td>
+                <td><textarea id="textarea2" cols="8" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Bet $5" id="place5Bet" name="place5Bet"></td>
+                <td><input type="button" value="Bet $10" id="place10Bet" name="place10Bet"></td>
+                <td style="text-align: right; padding-right: 60px;">Bet: $<input disabled name="bet" value="0" id="bet" type="text" size="5">
+                </td>
+            </tr>
+            <tr>
+                <td>Die 1</td>
+                <td><input disabled name="die1" id="die1" type="text" size="5"></td>
+                <td style="text-align: right; padding-right: 60px;">Bank: $<input disabled name="bank" value="100" id="bank" type="text" size="5"></td>
+            </tr>
+            <tr>
+                <td>Die 2</td>
+                <td> <input disabled name="die2" id="die2" type="text" size="5"></td>
+                <td style="text-align: right; padding-right: 60px;">Point: <input disabled value="Off" name="point" id="point" type="text" size="5"></td>
+            </tr>
+            <tr>
+                <td>Total: </td>
+                <td><input disabled name="result" id="result" style="width: 46px"></td>
+                <td><textarea id="textarea3">Set Your Point</textarea></td>
+            </tr>
+            <tr>
+                <td style="height: 50px;" colspan=1>
+                    <p>Messages:</p>
+                </td>
+                <td colspan=2>
+                    <p id="errors" style="height: 18px; float: left;"></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="reset" name="reset" onclick="zeroOut();"></td>
+            </tr>
+        </table>
+    </form>
+    <table class="table2">
+        <tbody>
+            <tr>
+                <td style="text-align: center; background-color: black; color: white;">
+                    © Reid McCulloch - All rights reserved
+                    <br>
+                    <script type="text/javascript">
+                        var dateModified = document.lastModified;
+                        mydate = dateModified.slice(0, 16);
+                        document.write("Last updated: " + mydate);
+                    </script>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <footer class="val">
+        <p>
+            <a href="//validator.w3.org/check?uri=referer">
+<img style="border:0;width:88px;height:31px" src="images/HTML5.gif" alt="HTML5"></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px" src="images/vcss.gif" alt="Valid CSS!">
+    </a>
+
+        </p>
+    </footer>
+    </body>
+
+</html>

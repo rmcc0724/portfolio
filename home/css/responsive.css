@@ -1,0 +1,86 @@
+@media screen and (min-width: 480px) {
+
+#gallery li {
+    width: 28.3333%;
+}
+
+/************************************************/
+/*    About me:       */
+/************************************************/
+
+/*Styling for photo*/
+
+.profile-pic {
+    width: 130px;
+    float: left;
+    margin: 0px  38px 80px 0;
+}
+
+
+}
+
+/************************************************/
+/*    Header:       */
+/************************************************/
+@media screen and (min-width: 660px) {
+    
+nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    width: 45%;
+    text-align: right;
+    }
+    
+    
+#logo {
+    float: left;
+    text-align: left;
+    margin-left: 5%;
+    width: 45%;
+}
+
+header {
+    border-bottom: 5px solid #627ECC;
+    margin-bottom: 60px;
+}
+    
+    
+h1 {
+    font-size: 2.5em;
+}
+    
+h2 {
+    margin-bottom: 20px;
+}
+
+
+/************************************************/
+/*    Footer:       */
+/************************************************/
+
+footer {
+    padding-top: 35px;
+}
+
+/************************************************/
+/*    Contact:       */
+/************************************************/
+
+
+
+#column1 {
+float: left;
+width: 50%;
+}
+
+
+#column2 {
+float: right;
+width: 40%;
+margin-top: 0;
+    
+}
+
+}

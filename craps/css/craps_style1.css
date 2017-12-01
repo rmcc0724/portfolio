@@ -1,0 +1,149 @@
+body {
+	font-family: arial, helvetica;
+	background: url('../images/crapsbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FFF;
+}
+
+body, header, .foot, footer.val {
+	text-align: center;
+}
+
+li {
+    text-align: right;
+    font-size: .6em;
+}
+
+
+span.valid {
+	display: block;
+}
+
+#board div {
+    padding: 8px;
+}
+
+section#board {
+    background-color: wheat;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+input {
+    width: 76px;
+}
+
+#wrapper {
+  margin: 0 auto;
+  padding: 0 5%;
+  font-size: 110%;
+}
+
+ul {
+	display: inline-block;	
+	    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+
+#textarea1, #textarea2 {
+    background-repeat: no-repeat;
+    width: 68px;
+    height: 68px;
+}
+
+
+header {
+	color: white;
+	font-family: "Aclonica", sans-serif;
+	margin: 0 0 5px 0;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: yellow;
+	border-color: blue;
+}
+
+a:visited {
+	color: #FFFFFF;
+}
+
+
+.foot {
+	color: yellow;
+	background-color: black;
+}
+
+td {
+	padding: 5px;
+	color: #000;
+	border: 0px;
+}
+
+
+footer.val {
+	margin-top: -11px;
+}
+
+#dialog {
+	font-size: 14px;
+}
+
+field {
+	margin-left: .5em;
+	float: left;
+}
+
+#field,
+label {
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+
+br {
+	clear: both;
+}
+
+p.errors {
+	background: url('../media/unchecked.gif') no-repeat;
+	padding-left: 16px;
+	margin-left: .3em;
+	border: 0px;
+	border: 1px solid red;
+	font-size: 14px;
+	width: 186px;
+}
+
+span.valid {
+	background: url('../media/checked.gif') no-repeat;
+	width: 8px;
+	height: 16px;
+}
+
+
+#die1,
+#die2,
+#result,
+#point,
+#bank,
+#pot {
+	color: #000000;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    font-size: 9pt;
+}

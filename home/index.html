@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Reid's Portfolio</title>
+<link rel="stylesheet" href="css/normalize.css">
+<link href='//fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" src="js/about.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+
+var selected = '1';
+
+function myFunction(elem, value, page) {
+   document.getElementById('nav' + selected).className=''; 
+   elem.className = value;
+   selected = page;
+   
+   if(page == "1") {
+    load1();
+   }
+   
+   if(page == "2") {
+    load2();
+   }
+  
+   
+    if(page == "3") {
+    load3();
+   }
+}
+
+function load1 () {
+document.getElementById("homeJS").innerHTML = html1;
+document.getElementById("footer").className = '';
+}
+
+function load2 () {
+document.getElementById("homeJS").innerHTML = html2;
+document.getElementById("footer").className = '';
+}
+
+function load3 () {
+document.getElementById("homeJS").innerHTML = html3;
+document.getElementById("footer").className = 'hideFooter';
+
+}
+
+</script>
+</head>
+
+
+<body onload="load1();">
+<header>
+<a href="index.html" id="logo">
+<h1>
+Reid McCulloch
+</h1>
+<h2>
+Web Developer
+</h2>
+</a>  
+<nav>
+<ul>
+<a href="#" id="nav1" class="selected" onclick="myFunction(this, 'selected', '1')"><li>Portfolio</li></a>    
+<a href="#" id="nav2" onclick="myFunction(this, 'selected', '2')"><li>About</li></a>
+<a href="#" id="nav3" onclick="myFunction(this, 'selected', '3')"><li>Contact</li></a>
+</ul>
+</nav>
+</header>
+<div id="wrapper">
+<section id="homeJS">
+</section>
+<footer id="footer">
+<img id="socialIcons" src="images/contacticons.png" usemap="#myMap">
+<map name="myMap">
+<area shape="rect" coords="0,0,56,60" href="tel:+1-408-644-4184" alt="">
+<area shape="rect" coords="70,0,126,60" href="mailto:rmcc0724@gmail.com?Subject=Portfolio%20" alt="">
+<area shape="rect" coords="145,0,200,60" href="https://www.linkedin.com/in/reid-mcculloch-83b99298" alt="">
+</map>
+<p>© 2016 Reid McCulloch.</p>
+</footer>
+</div>
+</body>
+</html>
