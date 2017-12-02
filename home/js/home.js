@@ -18,7 +18,7 @@ html1 +=    "</a>";
 html1 +=    "</li>";
 
 html1 +=    "<li>";
-html1 +=    "<a href=../coffee/main.html>";
+html1 +=    "<a href=../coffee/index.html>";
 html1 +=    "<img src=images/coffee.png alt=BestCoffee>";
 html1 +=    "<p>Make the best coffee</p>";
 html1 +=    "</a>";
