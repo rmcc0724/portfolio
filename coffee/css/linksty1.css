@@ -1,17 +1,18 @@
-
 #content {
-	width:950px;
-	margin: 0px auto; padding: 5px;
-        text-align: left; /* Counteract to IE/Win Hack */
-	border:1px dashed #333;
-	background-color:#eee
-         }    
+	width: 950px;
+	margin: 0px auto;
+	padding: 5px;
+	text-align: left;
+	/* Counteract to IE/Win Hack */
+	border: 1px dashed #333;
+	background-color: #eee
+}
 
 
 body {
 
-background-color: #000000;
-color: #000000;
+	background-color: #000000;
+	color: #000000;
 
 }
 
@@ -19,9 +20,14 @@ color: #000000;
 
 /* NAVIGATION */
 
-
 ul#mainNav {
-    padding: 0px; list-style: none outside none; margin-top: 0px; margin-bottom: 0px; margin-left: 90px; text-align: right; }
+	padding: 0px;
+	list-style: none outside none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 90px;
+	text-align: right;
+}
 
 #mainNav li {
 	float: left;
@@ -46,6 +52,7 @@ ul#mainNav {
 }
 
 /* special formatting for home page link */
+
 a#homeLink {
 	background: #E7E7E7 url(home.png) no-repeat 5px 52%;
 }
@@ -55,95 +62,104 @@ a#homeLink {
 /* IE Fixes */
 
 /* force hover on entire width of  link */
+
 * html #mainNav a {
 	height: 1px;
 }
 
 h2 {
 
-background-image: url('wood_bg.jpg');
-color: #a020f0;
-text-align: center;
-margin-top: 20px;
-margin-left: 180px;
-margin-right: 180px;
-font-weight: bold; font-style:normal; font-variant:normal; font-size:22pt; font-family: magneto;
+	background-image: url('wood_bg.jpg');
+	color: #a020f0;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 180px;
+	margin-right: 180px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 22pt;
+	font-family: magneto;
 }
 
 
-p.main  {
-font: 14pt 'Engravers MT';
-color: #FF0079;
-background: #8FFA98;
-text-indent: .2in;
-margin-left: 120px;
-margin-right: 120px;
-text-align: justify;
-border: dotted;
-padding: 15px;
+p.main {
+	font: 14pt 'Engravers MT';
+	color: #FF0079;
+	background: #8FFA98;
+	text-indent: .2in;
+	margin-left: 120px;
+	margin-right: 120px;
+	text-align: justify;
+	border: dotted;
+	padding: 15px;
 }
 
 
 p.lil {
-font-size: 13pt;
-text-align: center;
-font-weight: bold;
-margin-left: 230px;
-margin-right: 230px;
-color: #000000;
-background: #F68181;
-font-variant: small-caps;
+	font-size: 13pt;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 230px;
+	margin-right: 230px;
+	color: #000000;
+	background: #F68181;
+	font-variant: small-caps;
 }
 
 
-#new  {
-font-family: 'Showcard Gothic';
-padding: 10px;
-line-height: 18pt;
-border-style: ridge;
-border: 3px solid black;
-background-color: #E8EF85;
-font-size: 12pt;color: #ff0000;
-text-align: justify;
-font-weight: bold;
-margin-left: 240px;
-margin-right: 210px;
-width: 450px;
-      }
+#new {
+	font-family: 'Showcard Gothic';
+	padding: 10px;
+	line-height: 18pt;
+	border-style: ridge;
+	border: 3px solid black;
+	background-color: #E8EF85;
+	font-size: 12pt;
+	color: #ff0000;
+	text-align: justify;
+	font-weight: bold;
+	margin-left: 240px;
+	margin-right: 210px;
+	width: 450px;
+}
 
 a {
 
-color: #A802AD; text-decoration: none;
+	color: #A802AD;
+	text-decoration: none;
 }
 
 
-a:hover { color:#8f0052;
-text-decoration: underline;
-background-color: yellow;
+a:hover {
+	color: #8f0052;
+	text-decoration: underline;
+	background-color: yellow;
 }
 
 
-address 
-{
-font-family: "High Tower Text", "Century Gothic";
-font-size: 15pt;
-font-weight: bold;
-font-style: normal;
-color: #000000;
+address {
+	font-family: "High Tower Text", "Century Gothic";
+	font-size: 15pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
 }
 
 
-.center {text-align: center;}
+.center {
+	text-align: center;
+}
 
 p.newtext {
-font-family: courier;
-font-size: 20pt;
-color: #FFFFFF;
-background: #000000;
-text-indent: .2in;
-margin-left: 120px;
-margin-right: 120px;
-text-align: justify;
-border: dashed white;
-padding: 15px;
+	font-family: courier;
+	font-size: 20pt;
+	color: #FFFFFF;
+	background: #000000;
+	text-indent: .2in;
+	margin-left: 120px;
+	margin-right: 120px;
+	text-align: justify;
+	border: dashed white;
+	padding: 15px;
 }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Making the Best Homemade Coffee</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" type='text/css' href="css/coffee.css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <div class="head"><img class="header-image" src="images/java.jpg" alt="cup">
+            <h2>How to Make the Best Cup of Coffee</h2>
+        </div>
+                        <p>Inventory</p>
+        <section>
+            <div class="bg1">
+                <ul class="items1">
+                    <li><span class="item"><img src="images/mr_coffee.jpg" alt="Mr. Coffee">Mr. Coffee brand coffee maker</span></li>
+
+                    <li><span class="item"><img src="images/grinder.jpg" alt="grinder">Cuisine Art coffee grinder</span></li>
+
+                    <li><span class="item"><img src="images/brita.jpg" alt="Brita">Brita water pitcher</span></li>
+
+                </ul>
+            </div>
+            <div class="bg2">
+                <ul class="items1">
+                    <li><span class="item"><img src="images/mr_coffee.jpg" alt="Mr. Coffee">Mr. Coffee brand coffee maker</span></li>
+
+                    <li><span class="item"><img src="images/grinder.jpg" alt="grinder">Cuisine Art coffee grinder</span></li>
+
+                    <li><span class="item"><img src="images/brita.jpg" alt="Brita">Brita water pitcher</span></li>
+
+                </ul>
+            </div>            
+        </section>
+        <!--<footer>-->
+
+        <!--    Directions:-->
+        <!--    <ul>-->
+        <!--        <li>Fill your grinder with fresh whole beans, set to 6 and push start</li>-->
+        <!--        <li>Empty the coffee grounds into the reusable filter</li>-->
+        <!--        <li>Add 1-1.5 rotations of salt (helps counteract the bitterness and brings out the flavor)</li>-->
+        <!--        <li>Pour filtered water into the coffee maker up to the 6.25 line </li>-->
+        <!--        <li>Place the water filter over the coffee filter and brew</li>-->
+        <!--        <li>Serve and Enjoy!!!</li>-->
+        <!--    </ul>-->
+        <!--</footer>-->
+    </div>
+</body>
+</html>
