@@ -10,4 +10,4 @@ html3+="<li><a href=https://www.linkedin.com/in/reid-mcculloch-83b99298><img src
 html3+="</ul></a>";
 html3+="</section>";
 html3+="<footer>";
-html3+="<p>© 2016 Reid McCulloch.</p></footer>";
+html3+="<p>© 2018 Reid McCulloch.</p></footer>";
