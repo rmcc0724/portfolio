@@ -2,6 +2,12 @@
 
 
 var html1 = "<ul id=gallery>";
+html1 +=    "<li>";
+html1 +=    "<a href=http://www.girlsingerjoyce.com>";
+html1 +=    "<img src=images/joyce.png alt=GirlsingerJoyce.com>";
+html1 +=    "<p>Girlsinger Joyce</p>";
+html1 +=    "</a>";
+html1 +=    "</li>";
 
 
 html1 +=    "<li>";
@@ -48,12 +54,6 @@ html1 +=    "<p>Random Movie Quotes</p>";
 html1 +=    "</a>";
 html1 +=    "</li>";
 
-html1 +=    "<li>";
-html1 +=    "<a href=http://www.girlsingerjoyce.com>";
-html1 +=    "<img src=images/joyce.png alt=GirlsingerJoyce.com>";
-html1 +=    "<p>Girlsinger Joyce</p>";
-html1 +=    "</a>";
-html1 +=    "</li>";
 
 html1 +=    "<li>";
 html1 +=    "<a href=coffee/index.html>";
