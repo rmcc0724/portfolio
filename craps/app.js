@@ -32,7 +32,7 @@ var bankController = (function() {
     };
     let playerWins = () => {
         data.bank += data.bet * 2;
-        if (getDiceTotal === 7 || getDiceTotal === 11) {
+        if (getDiceTotal() === 7 || getDiceTotal() === 11) {
             sendMessage(`Player Wins because you rolled ${getDiceTotal()} on the first roll when the point was off. \nThe player has the amount of ${getBank()} left.`);
         }
         else {
