@@ -63,7 +63,7 @@ html1 +=    "</a>";
 html1 +=    "</li>";
 
 html1 +=    "<li>";
-html1 +=    "<a href=craps/new_craps.html>";
+html1 +=    "<a href=craps/craps.html>";
 html1 +=    "<img src=images/craps.png alt=CrapsGame>";
 html1 +=    "<p>Craps</p>";
 html1 +=    "</a>";
