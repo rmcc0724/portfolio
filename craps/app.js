@@ -47,7 +47,7 @@ var bankController = (function() {
             sendMessage(`Player Loses because you rolled ${getDiceTotal()} on the first roll when the point was off. \nThe player has the amount of ${getBank()} left.`);
         }
         else {
-            sendMessage(`Player Loses because you rolled ${getDiceTotal()} prior to rolling ${getDiceTotal()} \nThe player has the amount of ${getBank()} left. `);
+            sendMessage(`Player Loses because you rolled ${getDiceTotal()} prior to rolling ${getPoint()} \nThe player has the amount of ${getBank()} left. `);
 
         }
         data.bet = 0;
