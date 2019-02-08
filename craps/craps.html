@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Craps Game</title>
+</head>
+
+<body>
+    <div class="wrapper clearfix">
+      
+        <div class="dice-1-panel">
+              
+            <div class="player-name" id="dice-1">Die 1</div>
+            <div class="player-score" id="score-1">5</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Point</div>
+                <div class="player-current-score" id="point">Off</div>
+            </div><br>
+            <div><textarea rows="4" cols="30" id="message"></textarea></div>
+        </div>
+
+        <div class="dice-2-panel">
+            <div class="player-name" id="dice-2">Die 2</div>
+            <div class="player-score" id="score-2">5</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Bet</div>
+                <div class="player-current-score" id="bet">0</div>
+                
+            </div>
+            
+                    </div>
+                      <div>      
+        <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+        <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+<button class="btn-bet"><i class="ion-ios-download-outline"></i>Bet 5$</button>
+<div class="bank">
+                <div class="player-current-label">Bank</div>
+                <div class="player-current-score" id="bank">100</div>
+            </div>
+        <img src="dice-5.png" alt="Dice" class="dice1" id="die-1-img">
+        <img src="dice-5.png" alt="Dice" class="dice2" id="die-2-img">
+
+    </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
