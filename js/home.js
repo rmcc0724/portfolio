@@ -9,6 +9,13 @@ html1 +=    "<p>Girlsinger Joyce</p>";
 html1 +=    "</a>";
 html1 +=    "</li>";
 
+html1 +=    "<li>";
+html1 +=    "<a href=https://lulf.org>";
+html1 +=    "<img src=images/lulf.png alt=lulf>";
+html1 +=    "<p>LULF.org</p>";
+html1 +=    "</a>";
+html1 +=    "</li>";
+
 
 html1 +=    "<li>";
 html1 +=    "<a href=http://newsroom.mgm.mo>";
@@ -54,13 +61,6 @@ html1 +=    "<p>Random Movie Quotes</p>";
 html1 +=    "</a>";
 html1 +=    "</li>";
 
-
-html1 +=    "<li>";
-html1 +=    "<a href=coffee/index.html>";
-html1 +=    "<img src=images/coffee.png alt=BestCoffee>";
-html1 +=    "<p>The best coffee</p>";
-html1 +=    "</a>";
-html1 +=    "</li>";
 
 html1 +=    "<li>";
 html1 +=    "<a href=craps/craps.html>";
