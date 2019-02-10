@@ -18,6 +18,14 @@ html1 +=    "</li>";
 
 
 html1 +=    "<li>";
+html1 +=    "<a href=https://rmcc0724.github.io/templates>";
+html1 +=    "<img src=images/apple.png alt=Apple>";
+html1 +=    "<p>Apple Mockup</p>";
+html1 +=    "</a>";
+html1 +=    "</li>";
+
+
+html1 +=    "<li>";
 html1 +=    "<a href=http://newsroom.mgm.mo>";
 html1 +=    "<img src=images/mgm2.png alt=MGM Macau>";
 html1 +=    "<p>MGM Macau</p>";
@@ -53,13 +61,6 @@ html1 +=    "<p>The Standard</p>";
 html1 +=    "</a>";
 html1 +=    "</li>";
 
-
-html1 +=    "<li>";
-html1 +=    "<a href=https://codepen.io/bigreed_76/pen/OXAjqb>";
-html1 +=    "<img src=images/film.png alt=Movie Quotes>";
-html1 +=    "<p>Random Movie Quotes</p>";
-html1 +=    "</a>";
-html1 +=    "</li>";
 
 
 html1 +=    "<li>";
