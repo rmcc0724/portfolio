@@ -1,0 +1,194 @@
+/************************************************/
+
+/*    Header:       */
+
+/************************************************/
+
+/*    Sets a the top and bottom margin of the entire header  */
+
+header {
+    margin: .5em 0;
+}
+
+/*    Display the header div container as an inline-block*/
+
+header div,
+.footer.sticky-footer div {
+    display: inline-block;
+}
+
+/*    Sets the nav container div to 100% so it spans across the screen*/
+
+.nav-container {
+    width: 100%;
+}
+
+/*     Float items in the left part of the nav to the left */
+
+nav div:nth-child(1), .footer div:nth-child(1) {
+    margin-left: 25px;
+}
+
+/*     Float items in the right part of the nav to the right */
+
+nav div:nth-child(2), .footer div:nth-child(2) {
+    margin-right: 40px;
+    float: right;
+}
+
+
+/*    Set the padding of ul element of the left part of the nav to zero     */
+
+nav div:first-child ul {
+    padding: 0;
+    margin-top: 20px;
+}
+
+/*    Set the border radias of the first initial icon to 100% so it's a circle     */
+
+nav div:nth-child(2) ul li:nth-child(5) img {
+    border-radius: 100%;
+}
+
+/*    Display the list items in the nav as inline:    */
+
+div ul li {
+    display: inline;
+}
+
+
+/*    Set the margins and padding for the li elements of the left part of the nav */
+
+nav div:nth-child(2) ul li, .footer div:nth-child(2) ul li {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+/*    Set the margins and padding for the li elements of the right part of the nav */
+
+nav div:nth-child(1) ul li, .footer div:nth-child(1) ul li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+/************************************************/
+
+/*    Body:       */
+
+/************************************************/
+
+html {
+    height: 100%;              /* for the page to take full window height */
+    box-sizing: border-box;    /* to have the footer displayed at the bottom of the page without scrolling */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;       /* enable the "border-box effect" everywhere */
+}
+
+
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+}
+
+
+/*    Set the margin top for the logo container */
+
+.logo-section-container {
+    margin-top: 135px;
+    text-align: center;
+}
+
+
+/*    center the search field and give it a margin top     */
+
+.input-section-container {
+    text-align: center;
+    margin-top: 45px;
+}
+
+/*    This is for each row of content    */
+
+.section {
+    width: 100%;
+}
+
+/*    Set the height and width of the input field     */
+
+input[type="text"] {
+    width: 584px;
+    height: 37px;
+    font: 16px arial, sans-serif;
+    padding: 0 10px;
+    border-style: none;
+}
+
+/*    Set the display of the section container to inline      */
+
+.input-section-container div {
+    display: inline;
+}
+
+
+.wrapper {
+    border-style: solid;
+    padding: 13px 4px;
+    border-width: 1pt;
+}
+
+.wrapper div:nth-child(2) {
+    margin-right: 14px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.button-section-container {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.button-section-container div {
+    padding: 13px 12px;
+    border-width: .1em;
+    background-color: #eeeeee;
+    margin: 0px 5px;
+    display: inline;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.body-for-sticky {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 6rem;
+}
+
+/************************************************/
+
+/*    Footer:       */
+
+/************************************************/
+
+.sticky-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer {
+    right: 0;
+    left: 0;
+    /* padding: 1rem; */
+    background-color: #efefef;
+}
+
+.footer ul {
+    padding: 0;
+}
