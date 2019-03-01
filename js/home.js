@@ -25,9 +25,9 @@ html1 +=    "</a>";
 html1 +=    "</li>";
 
 html1 +=    "<li>";
-html1 +=    "<a href=http://newsroom.mgm.mo>";
-html1 +=    "<img src=images/google-mockup-final.png alt=MGM Macau>";
-html1 +=    "<p>MGM Macau</p>";
+html1 +=    "<a href=http://www.google.com>";
+html1 +=    "<img src=images/google-mockup-final.png alt=My Google Page>";
+html1 +=    "<p>Google Wireframe</p>";
 html1 +=    "</a>";
 html1 +=    "</li>";
 
