@@ -1,7 +1,7 @@
 // JavaScript File
 var html3= "<section id=column1>";
 html3+="<h3>General Information</h3>";
-html3+="<p>I'm currently seeking an entry level position in Web Development where I can apply my knowledge, gain experience and become a contributing member of a great team.";     
+html3+="<p>I am seeking an opportunity to apply my ability to think critically, solve problems and become an invaluable member of your team.";     
 html3+="</p>";
 html3+="</section><section id=column2><h3>Contact Details</h3>";
 html3+="<ul><li><a href=tel:+1-408-644-4184></a><img src=images/phoneIcon.png><p>Tel: 408-644-4184</p></li></a>";
