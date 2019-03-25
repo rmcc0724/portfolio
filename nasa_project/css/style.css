@@ -26,8 +26,8 @@ body {
   line-height: 1.6;
   color: #655A56;
   background-image: url('../img/space.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: fixed;
+  background-repeat: repeat;
   min-height: calc(100vh - 2 * 4vw);
 }
 
