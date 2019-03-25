@@ -132,6 +132,8 @@ h2 {
   display: flex;
   align-items: center;
   transition: all .2s;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .btn-inline svg {
@@ -331,6 +333,7 @@ h2 {
 .results__list,
 .likes__list {
   list-style: none;
+  margin-top: 20px;
 }
 
 .results__link:link,
