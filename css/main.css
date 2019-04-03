@@ -248,7 +248,8 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    padding: 0; }
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
@@ -264,9 +265,8 @@ main {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 75vh;
-    transform: translate3d(-100%, 0, 0);
-    font-size: 24px; }
+    height: 60vh;
+    transform: translate3d(-100%, 0, 0); }
   .menu-branding {
     height: auto;
     transform: translate3d(100%, 0, 0); }
@@ -290,4 +290,6 @@ main {
       margin-top: 1rem;
       font-size: 4rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .menu-nav {
+    height: 75vh; } }
