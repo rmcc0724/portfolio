@@ -265,7 +265,7 @@ main {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 60vh;
+    height: 53vh;
     transform: translate3d(-100%, 0, 0); }
   .menu-branding {
     height: auto;
