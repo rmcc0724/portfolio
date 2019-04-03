@@ -12,7 +12,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
-        $(function() {
+        $(function () {
             $("#datepicker").datepicker();
         });
     </script>
@@ -22,53 +22,54 @@
 <body>
     <div class="container">
         <header class="header">
-            <img src="img/nasa_logo.png" alt="Logo" class="header__logo">
+           <a href="https://nasa.com"><img src="img/nasa_logo.png" alt="Logo" class="header__logo"></a> 
             <form class="search">
                 <input type="text" id="datepicker" class="search__field" placeholder="Search asteriod by date">
                 <button class="btn search__btn">
                     <svg class="search__icon">
-                        <use src="img/icons.svg#icon-magnifying-glass"></use>
+                        <use href="img/icons.svg#icon-magnifying-glass"></use>
                     </svg>
                     <span>Search</span>
                 </button>
             </form>
-            <!--<div class="likes">-->
-            <!--    <div class="likes__field">-->
-            <!--        <svg class="likes__icon">-->
-            <!--            <use src="img/icons.svg#icon-heart"></use>-->
-            <!--        </svg>-->
-            <!--    </div>-->
-            <!--    <div class="likes__panel">-->
-            <!--        <ul class="likes__list">-->
-            <!--        </ul>-->
-            <!--    </div>-->
-            <!--</div>-->
+            <div class="likes">
+                <div class="likes__field">
+                    <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+                </div>
+                <div class="likes__panel">
+                    <ul class="likes__list">
+                    </ul>
+                </div>
+            </div>
         </header>
 
 
         <div class="results">
             <ul class="results__list">
             </ul>
-
             <div class="results__pages">
-
             </div>
         </div>
-
-
-
         <div class="asteroid">
-            <p>Welcome to my asteroid site where you can search what asteroids are passing earth on any given day. <br/><br/>Enter a date above in the form of 'MM/DD/YYYY' to see what's coming. </p>
+            <div class="asteroid-view"></div>
+            <p class="text-intro">Welcome to my asteroid site where you can search what asteroids are passing earth on
+                any given
+                day. <br /><br />Enter a date above in the form of 'MM/DD/YYYY' to see what's coming. </p>
+            <div class="close__data-details">
+                <div class="close__data-results">
+                    <ul class="close__data-list"></ul>
+                    <div class="close__data-pages">
+                    </div>
+                </div>
+            </div>
         </div>
-
-
         <div class="copyright">
             &copy; by Reid McCulloch. Powered by
             <a href="http://nasa.com" target="_blank" class="link">Nasa.com</a>.
         </div>
-
     </div>
     </div>
+    <script src="https://use.fontawesome.com/fe977770cf.js"></script>
 
 <script type="text/javascript" src="js/bundle.js"></script></body>
 

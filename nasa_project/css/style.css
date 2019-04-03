@@ -496,7 +496,7 @@ h2 {
 .recipe__details {
   display: block;
   align-items: center;
-  padding: 6rem 3rem 3rem 3rem;
+  padding: 6rem 3rem 0rem 3rem;
 }
 
 .recipe__info {
@@ -703,4 +703,42 @@ h2 {
 
 .asteroid {
     font-size: initial !important;
+}
+
+.recipe__ingredients {
+  padding: 1.5rem 3rem 0;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  /* background-color: #F2EFEE; */
+  display: block;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close__data-results {
+  padding: 0rem 6rem 30px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.close__data-list {
+  list-style: none;
+}
+
+
+i.fa.fa-bookmark-o {
+    font-size: xx-large;
+    color: #033a92;
+}
+
+.asteroid .btn-inline {
+  background-color: #c5c5c5;
+}
+
+.close__data-pages {
+  margin-bottom: 20px;
 }
