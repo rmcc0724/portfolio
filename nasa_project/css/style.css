@@ -538,7 +538,7 @@ h2 {
 }
 
 .recipe__love {
-  background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+  background-color: #033a92;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -546,9 +546,12 @@ h2 {
   width: 4.5rem;
   margin-left: auto;
   transition: all .2s;
-  display: flex;
+  display: inline;
   align-items: center;
   justify-content: center;
+  float: right;
+  /* margin-bottom: -15px; */
+  padding-top: 4px;
 }
 
 .recipe__love:hover {
@@ -565,6 +568,12 @@ h2 {
   fill: #fff;
 }
 
+.recipe__loved svg {
+  height: 2.75rem;
+  width: 2.75rem;
+  fill: #fb3b1b;
+}
+
 .recipe__ingredients {
   padding: 2rem 2rem;
   font-size: 1.5rem;
@@ -576,7 +585,7 @@ h2 {
 }
 
 .recipe__ingredient-list {
-  display: block;
+  display: inline;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1.5rem;
   grid-row-gap: 2.5rem;
@@ -741,4 +750,8 @@ i.fa.fa-bookmark-o {
 
 .close__data-pages {
   margin-bottom: 20px;
+}
+
+svg.header__likes_true {
+  fill: #fc3b1b;
 }
